@@ -1,0 +1,45 @@
+export default function Hero() {
+  return (
+    <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
+      <div className="max-w-4xl mx-auto text-center">
+        {/* Eyebrow label */}
+        <span className="inline-block bg-blue-50 text-blue-700 text-sm font-semibold px-4 py-1.5 rounded-full mb-6">
+          Built for small local service businesses
+        </span>
+
+        {/* Headline */}
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight tracking-tight mb-6">
+          Respond to leads faster.{" "}
+          <span className="text-blue-600">Get more Google reviews.</span>{" "}
+          Without hiring anyone.
+        </h1>
+
+        {/* Subheadline */}
+        <p className="text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto mb-10 leading-relaxed">
+          Ward Consulting sets up simple, done-for-you workflow automations for local service businesses — so you stop losing leads to slow follow-up and start collecting the Google reviews you've earned.
+        </p>
+
+        {/* CTAs */}
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="#contact"
+            className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-xl text-lg transition-colors shadow-md hover:shadow-lg"
+          >
+            Get a Free Workflow Audit
+          </a>
+          <a
+            href="#how-it-works"
+            className="bg-white hover:bg-slate-50 text-slate-800 font-semibold px-8 py-4 rounded-xl text-lg border border-slate-200 transition-colors"
+          >
+            See How It Works
+          </a>
+        </div>
+
+        {/* Trust line */}
+        <p className="mt-8 text-sm text-slate-500">
+          No complicated software. No long-term contracts. Simple setup and handoff.
+        </p>
+      </div>
+    </section>
+  );
+}
