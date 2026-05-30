@@ -83,12 +83,12 @@ export async function POST(req: NextRequest) {
       `,
     });
 
-    // TODO: Log submission to Google Sheets via Zapier webhook
-    // await fetch(process.env.ZAPIER_WEBHOOK_URL!, {
-    //   method: "POST",
-    //   headers: { "Content-Type": "application/json" },
-    //   body: JSON.stringify(body),
-    // });
+    // Log submission to Google Sheets via Apps Script webhook
+    await fetch(process.env.GOOGLE_SHEETS_WEBHOOK_URL!, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+    });
 
     return NextResponse.json({ success: true }, { status: 200 });
   } catch (err) {
