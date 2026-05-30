@@ -43,11 +43,6 @@ export default function Package() {
               </span>
             </div>
 
-            {/* Demo video note */}
-            <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 mb-6 text-sm text-blue-800">
-              <span className="font-semibold">🎥 Want to see it in action?</span> A recorded demo walkthrough is available — ask about it when you reach out.
-            </div>
-
             {/* Included list */}
             <ul className="space-y-3 mb-8">
               {included.map((item, i) => (
