@@ -22,6 +22,9 @@ export default function Navbar() {
             <a href="#package" className="text-sm text-slate-600 hover:text-slate-900 transition-colors">
               Pricing
             </a>
+            <a href="#about" className="text-sm text-slate-600 hover:text-slate-900 transition-colors">
+              About
+            </a>
             <a href="#faq" className="text-sm text-slate-600 hover:text-slate-900 transition-colors">
               FAQ
             </a>
@@ -60,6 +63,9 @@ export default function Navbar() {
           </a>
           <a href="#package" className="block text-sm text-slate-600 hover:text-slate-900" onClick={() => setMenuOpen(false)}>
             Pricing
+          </a>
+          <a href="#about" className="block text-sm text-slate-600 hover:text-slate-900" onClick={() => setMenuOpen(false)}>
+            About
           </a>
           <a href="#faq" className="block text-sm text-slate-600 hover:text-slate-900" onClick={() => setMenuOpen(false)}>
             FAQ
