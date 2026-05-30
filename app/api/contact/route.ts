@@ -84,11 +84,18 @@ export async function POST(req: NextRequest) {
     });
 
     // Log submission to Google Sheets via Apps Script webhook
-    await fetch(process.env.GOOGLE_SHEETS_WEBHOOK_URL!, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(body),
-    });
+    try {
+      const sheetsRes = await fetch(process.env.GOOGLE_SHEETS_WEBHOOK_URL!, {
+        method: "POST",
+        redirect: "follow",
+        headers: { "Content-Type": "text/plain" }, // Apps Script requires text/plain to avoid CORS preflight
+        body: JSON.stringify(body),
+      });
+      console.log("Sheets response status:", sheetsRes.status);
+    } catch (sheetsErr) {
+      // Log but don't fail the whole request if Sheets write fails
+      console.error("Google Sheets error:", sheetsErr);
+    }
 
     return NextResponse.json({ success: true }, { status: 200 });
   } catch (err) {
