@@ -83,17 +83,23 @@ export async function POST(req: NextRequest) {
       `,
     });
 
-    // Log submission to Google Sheets via Apps Script webhook
+    // Log submission to Google Sheets via Apps Script (GET with URL params to avoid redirect issue)
     try {
-      const sheetsRes = await fetch(process.env.GOOGLE_SHEETS_WEBHOOK_URL!, {
-        method: "POST",
-        redirect: "follow",
-        headers: { "Content-Type": "text/plain" }, // Apps Script requires text/plain to avoid CORS preflight
-        body: JSON.stringify(body),
+      const params = new URLSearchParams({
+        name: body.name,
+        businessName: body.businessName,
+        email: body.email,
+        phone: body.phone || "",
+        website: body.website || "",
+        businessType: body.businessType,
+        problem: body.problem,
       });
+      const sheetsRes = await fetch(
+        `${process.env.GOOGLE_SHEETS_WEBHOOK_URL}?${params.toString()}`,
+        { method: "GET", redirect: "follow" }
+      );
       console.log("Sheets response status:", sheetsRes.status);
     } catch (sheetsErr) {
-      // Log but don't fail the whole request if Sheets write fails
       console.error("Google Sheets error:", sheetsErr);
     }
 
