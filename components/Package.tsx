@@ -30,7 +30,8 @@ export default function Package() {
             Simple, flat-rate pricing.
           </h2>
           <p className="text-lg text-slate-600 max-w-xl mx-auto">
-            No recurring fees. No subscriptions. You pay once, it's built, and it's yours.
+            No recurring fees. No subscriptions. You pay once, it's built, and it's yours.{" "}
+            <span className="text-slate-500 text-base">Retainer arrangements available upon request and availability.</span>
           </p>
         </div>
 

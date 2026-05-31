@@ -10,13 +10,13 @@ export default function Hero() {
         {/* Headline */}
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight tracking-tight mb-6">
           Respond to leads faster.{" "}
-          <span className="text-blue-600">Get more Google reviews.</span>{" "}
-          Without hiring anyone.
+          <span className="text-blue-600">Cut the manual work.</span>{" "}
+          Get a website that actually works for you.
         </h1>
 
         {/* Subheadline */}
         <p className="text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Ward Consulting sets up simple, done-for-you workflow automations for local service businesses — so you stop losing leads to slow follow-up and start collecting the Google reviews you've earned.
+          Ward Consulting builds done-for-you workflow automations and professional websites for local service businesses — so you stop losing leads, reduce manual follow-up, and show up online like the credible business you are.
         </p>
 
         {/* CTAs */}
