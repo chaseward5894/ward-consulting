@@ -16,7 +16,7 @@ export default function Hero() {
 
         {/* Subheadline */}
         <p className="text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Ward Consulting builds done-for-you workflow automations and professional websites for local service businesses — so you stop losing leads, reduce manual follow-up, and show up online like the credible business you are.
+          Ward Consulting builds done-for-you workflow automations and professional websites for small service businesses — so you stop losing leads, reduce manual follow-up, and show up online like the credible business you are.
         </p>
 
         {/* CTAs */}
