@@ -37,7 +37,7 @@ const features = [
     ),
     title: "Google Sheets lead tracker",
     description:
-      "Every submission gets logged into a Google Sheet automatically. You can see every lead, update their status (New, Contacted, Completed), and never lose track of where things stand.",
+      "Every submission gets logged into a Google Sheet automatically. You can see every lead, update their status (New, Contacted, Quoted, Completed), and never lose track of where things stand.",
   },
   {
     icon: (
@@ -74,7 +74,7 @@ export default function Solution() {
             The Lead Response + Google Review Automation System
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            One simple setup. No new software to learn. Ward Consulting builds and hands off the whole thing — so you can stay focused on the work.
+            One simple setup. No new software to learn. Ward Consulting builds and hands off the whole thing — so you can stay focused on the work. And if you need a website too, we build that as well.
           </p>
         </div>
 

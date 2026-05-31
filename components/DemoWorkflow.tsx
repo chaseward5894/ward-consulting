@@ -60,7 +60,7 @@ export default function DemoWorkflow() {
                 "The lead is automatically saved in your Google Sheet.",
                 "If you haven't reached out after a set time, you get a reminder.",
                 "You call the lead. They're still warm. You book the job.",
-                "Job is complete. You mark it Done in the sheet.",
+                "Job is complete. You mark it Completed in the sheet.",
                 "The customer automatically gets a Google review request. Reviews start coming in.",
               ].map((step, i) => (
                 <li key={i} className="flex items-start gap-3 text-sm text-slate-600">

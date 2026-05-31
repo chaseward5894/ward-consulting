@@ -38,6 +38,11 @@ const faqs = [
     answer:
       "Yes. The system is built with standard integrations in mind. If you're already using Zapier or Make for something, we can connect it. If you're not, you likely won't need to — the base setup doesn't require them.",
   },
+  {
+    question: "Do you build websites too?",
+    answer:
+      "Yes. If you don't have a website or your current one isn't doing you any favors, we can build a clean, professional landing page for your business. It can be bundled with the automation package or set up as a standalone project. Either way, the lead form is built right into the site and connected to the automation system from day one.",
+  },
 ];
 
 export default function FAQ() {
