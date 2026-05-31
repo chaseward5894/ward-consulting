@@ -3,25 +3,31 @@ const steps = [
     number: "01",
     title: "Customer submits your lead form",
     description:
-      "A potential customer fills out the intake form on your website. It takes them 60 seconds and captures everything you need to follow up.",
+      "A potential customer fills out the intake form on your website. It takes them 60 seconds and captures everything you need to follow up — name, contact info, job type, and any details you want.",
   },
   {
     number: "02",
-    title: "You get an instant email alert",
+    title: "You're alerted instantly — and so is the customer",
     description:
-      "The second the form is submitted, you receive an email with all their contact details and job info. No delay. No checking later.",
+      "The second the form is submitted, you receive an email with all their details. At the same time, the customer gets an automatic confirmation letting them know their request was received and someone will be in touch. They feel taken care of before you even pick up the phone.",
   },
   {
     number: "03",
-    title: "The lead is logged in Google Sheets",
+    title: "The lead is logged in your tracking sheet",
     description:
-      "Every submission is automatically saved in your Google Sheet with a status field you can update — New, Contacted, Quoted, Completed. Simple and easy to manage.",
+      "Every submission is automatically saved in a Google Sheet we set up for you. You can update each lead's status — New, Contacted, Quoted, Completed — so nothing falls through the cracks and you always know where things stand.",
   },
   {
     number: "04",
+    title: "Untouched leads trigger a follow-up reminder",
+    description:
+      "If a lead hasn't been contacted after a set window of time — whether that's 60 minutes or 24 hours — you get an automatic reminder to reach out. No more forgetting about an inquiry because you were on a job.",
+  },
+  {
+    number: "05",
     title: "Completed jobs trigger a review request",
     description:
-      "When you mark a job Completed in the sheet, the customer automatically receives a polite email asking them to leave a Google review. You earn the review without having to remember to ask.",
+      "When you mark a job Completed in the sheet, the customer automatically receives a polite email asking them to leave a Google review. You earn the review without having to remember to ask — every single time.",
   },
 ];
 
@@ -35,10 +41,10 @@ export default function HowItWorks() {
             How It Works
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-            Four steps. Runs on autopilot.
+            Five steps. Runs on autopilot.
           </h2>
           <p className="text-lg text-slate-600 max-w-xl mx-auto">
-            Once it's set up, the whole system runs in the background. You just do the work and update a status field when a job is done.
+            Once it's set up, the whole system runs in the background. You just do the work, update a status field, and let the automation handle the rest.
           </p>
         </div>
 
