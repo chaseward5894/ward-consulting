@@ -52,7 +52,7 @@ export default function Package() {
               </p>
             </div>
             <div className="mb-6">
-              <span className="text-4xl font-bold text-slate-900">$300</span>
+              <span className="text-4xl font-bold text-slate-900">$200</span>
               <span className="text-slate-500 text-sm ml-2">one-time</span>
             </div>
             <ul className="space-y-3 mb-8 flex-1">
@@ -93,7 +93,7 @@ export default function Package() {
               </p>
             </div>
             <div className="mb-6">
-              <span className="text-4xl font-bold text-white">$600</span>
+              <span className="text-4xl font-bold text-white">$500</span>
               <span className="text-slate-400 text-sm ml-2">one-time</span>
               <p className="text-blue-400 text-xs mt-1 font-medium">Save $100 vs. buying separately</p>
             </div>
@@ -132,7 +132,7 @@ export default function Package() {
               </p>
             </div>
             <div className="mb-6">
-              <span className="text-4xl font-bold text-slate-900">$400</span>
+              <span className="text-4xl font-bold text-slate-900">$300</span>
               <span className="text-slate-500 text-sm ml-2">one-time</span>
             </div>
             <ul className="space-y-3 mb-8 flex-1">
