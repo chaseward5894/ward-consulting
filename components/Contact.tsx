@@ -66,7 +66,7 @@ export default function Contact() {
   }
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50" id="contact">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-100" id="contact">
       <div className="max-w-2xl mx-auto">
         <div className="text-center mb-12">
           <span className="inline-block bg-blue-50 text-blue-700 text-sm font-semibold px-4 py-1.5 rounded-full mb-4">

@@ -63,7 +63,7 @@ const features = [
 
 export default function Solution() {
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50" id="solution">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-100" id="solution">
       <div className="max-w-6xl mx-auto">
         {/* Section header */}
         <div className="text-center mb-14">
