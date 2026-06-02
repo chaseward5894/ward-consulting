@@ -26,7 +26,7 @@ const faqs = [
   {
     question: "How long does setup usually take?",
     answer:
-      "Most setups are completed within 3–5 business days after our initial call. There's no long onboarding process — we just need a bit of info about your business and we handle the rest.",
+      "Most setups are completed within 7 business days after our initial call. There's no long onboarding process — we just need a bit of info about your business and we handle the rest.",
   },
   {
     question: "What if I want SMS alerts later?",
