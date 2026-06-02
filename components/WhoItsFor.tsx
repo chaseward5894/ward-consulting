@@ -34,7 +34,7 @@ export default function WhoItsFor() {
           {trades.map((trade, i) => (
             <div
               key={i}
-              className="bg-slate-50 border border-slate-100 rounded-xl px-4 py-4 text-center hover:border-blue-200 hover:bg-blue-50 transition-colors"
+              className="bg-white border border-slate-200 rounded-xl px-4 py-4 text-center hover:border-blue-200 hover:bg-blue-50 transition-colors"
             >
               <div className="text-2xl mb-1">{trade.emoji}</div>
               <span className="text-sm font-medium text-slate-700">{trade.label}</span>
@@ -45,7 +45,7 @@ export default function WhoItsFor() {
         {/* Qualifier box */}
         <div className="bg-blue-600 rounded-3xl p-8 text-white text-center">
           <h3 className="text-xl font-bold mb-3">
-            If you're running a local service business and you're not following up on every lead as fast as you should be — this was built for you.
+            If you're running a small service business and you're not following up on every lead as fast as you should be — this was built for you.
           </h3>
           <p className="text-blue-100 text-sm mb-6 max-w-xl mx-auto">
             You don't need to be tech-savvy. You don't need to learn new software. Ward Consulting handles the setup and hands it off so you can just use it.
