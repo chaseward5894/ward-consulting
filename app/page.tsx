@@ -1,7 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Problem from "@/components/Problem";
-import Solution from "@/components/Solution";
 import HowItWorks from "@/components/HowItWorks";
 import Package from "@/components/Package";
 import WhoItsFor from "@/components/WhoItsFor";
@@ -18,7 +17,6 @@ export default function Home() {
       <main>
         <Hero />
         <Problem />
-        <Solution />
         <HowItWorks />
         <DemoWorkflow />
         <Package />

@@ -41,10 +41,10 @@ export default function HowItWorks() {
             How It Works
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-            Five steps. Runs on autopilot.
+            The Lead Response + Review Automation System
           </h2>
-          <p className="text-lg text-slate-600 max-w-xl mx-auto">
-            Once it's set up, the whole system runs in the background. You just do the work, update a status field, and let the automation handle the rest.
+          <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+            Ward Consulting builds and hands off the whole thing — no new software to learn, no complicated setup. If you need a website too, we build that as well. Once it's live, the system runs in the background while you focus on the work.
           </p>
         </div>
 
