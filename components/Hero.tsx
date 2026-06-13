@@ -4,7 +4,7 @@ export default function Hero() {
       <div className="max-w-4xl mx-auto text-center">
         {/* Eyebrow label */}
         <span className="inline-block bg-blue-50 text-blue-700 text-sm font-semibold px-4 py-1.5 rounded-full mb-6">
-          Built for small local service businesses
+          Built for small service businesses
         </span>
 
         {/* Headline */}

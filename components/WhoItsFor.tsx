@@ -22,7 +22,7 @@ export default function WhoItsFor() {
             Who It's For
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-            Built for small local service businesses
+            Built for small service businesses
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
             This is for owner-operators and small crews — businesses with 25 employees or fewer who are great at their trade but don't have time to babysit their inbox.
