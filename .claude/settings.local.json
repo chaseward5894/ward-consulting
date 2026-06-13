@@ -9,7 +9,22 @@
       "Bash(Remove-Item -Recurse -Force \"C:\\\\Users\\\\chase\\\\.git\")",
       "Bash(Write-Output \"Done\")",
       "mcp__Claude_Preview__preview_start",
-      "PowerShell(cd \"C:\\\\Users\\\\chase\\\\OneDrive\\\\Desktop\\\\Claude\\\\Ward Consulting\"; git add .; git commit -m \"Lower all prices by $100\"; git push)"
+      "PowerShell(cd \"C:\\\\Users\\\\chase\\\\OneDrive\\\\Desktop\\\\Claude\\\\Ward Consulting\"; git add .; git commit -m \"Lower all prices by $100\"; git push)",
+      "Bash(python -m venv venv)",
+      "Bash(venv/Scripts/pip install *)",
+      "Bash(venv/Scripts/python -c ' *)",
+      "Bash(Start-Process -FilePath \"venv\\\\Scripts\\\\streamlit.exe\" -ArgumentList \"run\",\"app.py\",\"--server.port\",\"8501\",\"--browser.gatherUsageStats\",\"false\" -WindowStyle Hidden)",
+      "Bash(venv/Scripts/streamlit run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8501)",
+      "Bash(mkdir -p \"C:\\\\Users\\\\chase\\\\OneDrive\\\\Desktop\\\\Claude\\\\Stock Expert\\\\.claude\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8502/healthz)",
+      "Read(//c/Users/chase/**)",
+      "Bash(powershell -Command \"[System.Environment]::GetEnvironmentVariable\\('ANTHROPIC_API_KEY', 'User'\\)\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8501/healthz)",
+      "Bash(pkill -f \"streamlit run app.py\")",
+      "Bash(PYTHONIOENCODING=utf-8 venv/Scripts/python -c ' *)",
+      "Bash(git add *)",
+      "Bash(git push *)"
     ]
   }
 }
