@@ -31,7 +31,7 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-slate-600 leading-relaxed">
               <p>
-                I've spent the last four years building and selling workflow automations for small businesses — and the same problems keep coming up. Leads falling through the cracks. Owners too busy to follow up. Google reviews never getting asked for.
+                I've been helping businesses improve and automate their processes since 2023 — and the same problems keep coming up. Leads falling through the cracks. Owners too busy to follow up. Google reviews never getting asked for.
               </p>
               <p>
                 Ward Consulting exists because these are solvable problems. Not with expensive software or a full-time hire — just a simple, well-built system that runs in the background while you focus on the work.
