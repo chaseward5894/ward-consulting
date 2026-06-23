@@ -37,7 +37,7 @@ export default function About() {
                 Ward Consulting exists because these are solvable problems. Not with expensive software or a full-time hire — just a simple, well-built system that runs in the background while you focus on the work.
               </p>
               <p>
-                I handle everything from setup to handoff. You don't need to be technical. You just need to be ready to stop losing leads.
+                I handle everything from setup to handoff. You don't need to be technical. Whether you need a professional website, a system that follows up on every lead automatically, or both — I'll build it, hand it off, and make sure it works.
               </p>
             </div>
 
